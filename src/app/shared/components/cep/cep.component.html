@@ -1,0 +1,13 @@
+<div class="container">
+    <br>
+        <h3>CEP Procura</h3>    
+  
+    <div class="row">
+      <div class="col-md-6">
+        <app-cep-busca (cepDoInput)="saidaDoComponenteBusca($event)"></app-cep-busca>
+      </div>
+      <div class="col-md-6">
+        <app-cep-result [cepObj]="objCep"></app-cep-result>  
+      </div>
+    </div>
+  </div>
